@@ -16,7 +16,7 @@ browser = webdriver.Chrome()
 browser.get('http://www.iherb.com')
 # asserherb' in browser.title
 
-#command searches for element p 
+#command searches for element p / kw which is the name of the searchbox
 elem = browser.find_element_by_name('kw') # find the search box
 #command enters keyword and searches for word
 elem.send_keys('SIX-06459'+ Keys.RETURN)
